@@ -58,7 +58,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]
 then
     # Install necessary tools
     echo "Installing dependencies (sed, gcc, git, musl-tools, easy-rsa, curl, jq, oathtool)"
-    sudo apt-get install -y sed gcc git musl-tools easy-rsa curl jq oathtool
+    sudo apt-get install -y sed gcc git musl-tools easy-rsa curl jq oathtool build-essential
 fi
 
 # Go Modules download
